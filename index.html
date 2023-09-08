@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <nav>
+                    <ul class="header-list">
+                        <li><a href="" class="header-link">Главная</a></li>
+                        <li><a href="" class="header-link">Ссылка на гида</a></li>
+                        <li><a href="" class="header-link">Авторизация</a></li>
+                        <li><a href="" class="header-link">Регистрация</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+            <div class="container">
+                <form class="form" onsubmit="return false;">
+                    <input type="text" class="input" value="" id="b" placeholder="Введите количество ваших денег">
+                    <br><br>
+                    <input type="text" class="input" value="" id="a" placeholder="Введите сумму товара">
+                    <br><br>
+                    <p class="text"></p>
+                    <br><br>
+                    <button onclick="check()" id="1">Проверка</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+        <div>
+            <label>Смена цвета</label>
+            <button type="button" onclick="changeBodyBg('yellow');">Желтый</button>
+            <button type="button" onclick="changeBodyBg('lime');">Зеленый</button>
+            <button type="button" onclick="changeBodyBg('orange');">Оранжевый</button>
+        </div>
+    </main>
+</body>
+</html>
